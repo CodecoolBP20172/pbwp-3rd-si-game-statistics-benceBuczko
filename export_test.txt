@@ -1,0 +1,7 @@
+24
+True
+Diablo III
+5
+15
+Action-adventure	First-person shooter	Real-time strategy	RPG	Sandbox	Simulation	Survival game
+1999
