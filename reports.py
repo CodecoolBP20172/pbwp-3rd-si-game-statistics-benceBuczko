@@ -55,4 +55,6 @@ def when_was_top_sold_fps(file_name):
     for i in open_file(file_name):
         if i[3] == "First-person shooter":
             yearbysold[i[2]] = float(i[1])
+    if yearbysold == {}:
+        raise ValueError
     return int(max(yearbysold, key=yearbysold.get))
